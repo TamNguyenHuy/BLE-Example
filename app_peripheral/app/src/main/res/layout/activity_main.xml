@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/advertise_switch"
+        android:layout_centerHorizontal="true"
+        android:text="@string/advertising_device"
+        android:textSize="16sp" />
+
+    <Switch
+        android:id="@+id/advertise_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/light_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:switchMinWidth="60dp" />
+
+    <TextView
+        android:id="@+id/light_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/light_circle"
+        android:layout_alignStart="@+id/light_circle"
+        android:layout_alignEnd="@+id/light_circle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/light_text"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/light_circle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/circle_grey" />
+
+</RelativeLayout>

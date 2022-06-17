@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App 2 (Central)</string>
+
+    <string name="DeviceNameUnknown">Device Name Unknown</string>
+    <string name="DeviceAddressUnknown">Device Address Unknown</string>
+
+    <string name="StartScan">Start Scan</string>
+    <string name="StopScan">Stop Scan</string>
+
+</resources>

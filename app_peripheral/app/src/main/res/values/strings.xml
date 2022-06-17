@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App 1 (Peripheral)</string>
+    <string name="advertising_device">Start Advertise</string>
+    <string name="light_text">Light Circle</string>
+</resources>
